@@ -11,16 +11,25 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AncientWisdomsGame.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GlobalUsings.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Tiles\HexConnections.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Tiles\HexGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\ColorHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\ConvexPolygon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\PrimitiveBatch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\FrameRateCounter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\Polygon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\Primitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\RegularPolygon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\Shape.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\VertexPositionColorIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes2d\VertexScaling.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tiles\HexDistrict.cs" />
+    <Compile Include="..\..\AncientWisdomsShared\Tiles\HexDistrict.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tiles\HexTile.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tiles\TileClimateTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tiles\TileConnections.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tiles\TileEcologyTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tiles\TileModifiers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tiles\TileTerrainTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tiles\TileType.cs" />
-    <Compile Include="..\..\AncientWisdomsShared\Tiles\TileTerrainTypes.cs" />
-    <Compile Include="..\..\AncientWisdomsShared\AncientWisdomsGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Icon.ico" />
@@ -36,5 +45,8 @@
     <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="$(MSBuildThisFileDirectory)Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Components\" />
   </ItemGroup>
 </Project>

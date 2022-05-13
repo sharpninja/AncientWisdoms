@@ -15,7 +15,7 @@
 
   <Properties>
     <DisplayName>Ancient Wisdoms Uap Xaml</DisplayName>
-    <PublisherDisplayName>TheSharp Ninja</PublisherDisplayName>
+    <PublisherDisplayName>The Sharp Ninja</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,7 +32,7 @@
       Executable="AncientWisdomsUapXaml.exe"
       EntryPoint="AncientWisdomsUapXaml.App">
       <uap:VisualElements
-        DisplayName="AncientWisdomsUapXaml"
+        DisplayName="Ancient Wisdoms Uap-Xaml"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="AncientWisdomsUapXaml"
         BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png">

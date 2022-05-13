@@ -1,4 +1,6 @@
-﻿namespace AncientWisdoms.Tiles;
+﻿using System;
+
+namespace AncientWisdoms.Tiles;
 
 [Flags]
 public enum TileModifiers
